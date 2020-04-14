@@ -1,5 +1,12 @@
 <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
 
 <h1>Shipping Label</h1>
-<input name="name">
-<input name="address">
+<input id="name" name="name">
+<input id="address" name="address">
+
+<script>
+  var name = document.location.search.match(/[\?&]name=([^&]*)/)[1];
+  var addresss = document.location.search.match(/[\?&]address=([^&]*)/)[1];
+  document.getElementById('name').value = name;
+  document.getElementById('address').value = address;
+</script>
