@@ -1,4 +1,5 @@
 // https://try-puppeteer.appspot.com/
+// https://pptr.dev/#?product=Puppeteer&version=v2.1.1&show=api-pagetypeselector-text-options
 
 const browser = await puppeteer.launch();
 
